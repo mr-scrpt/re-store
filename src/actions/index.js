@@ -1,6 +1,3 @@
-export const booksLoaded = newBooks => {
-  return {
-    type: "BOOKS_LOADED",
-    payload: newBooks
-  };
-};
+import { createAction } from "redux-actions";
+
+export const booksLoaded = createAction("BOOKS_LOADED");

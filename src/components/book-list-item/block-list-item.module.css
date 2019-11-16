@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  margin: 15px 0;
+  flex-direction: row;
+}
+
+.cover {
+  width: calc(200px - 15px);
+  margin-right: 15px;
+}
+
+.img {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: auto;
+}
+
+.details {
+  width: calc(100% - 15px -200px);
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  line-height: 2em;
+}
+
+.title {
+  font-size: 1.4em;
+}
+
+.price {
+  font-size: 1.2em;
+}
+.cart {
+  color: whitesmoke;
+}

@@ -1,0 +1,13 @@
+.main {
+  background-color: beige;
+}
+
+.total {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.button {
+  margin: 0 5px;
+}
