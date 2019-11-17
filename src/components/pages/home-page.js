@@ -1,10 +1,10 @@
 import React from "react";
-import BookList from "../book-list";
+import BookListContainer from "../../containers/book-list-container";
 import ShopCartTable from "../shop-cart-table";
 export const HomePage = () => {
   return (
     <div>
-      <BookList />
+      <BookListContainer />
       <ShopCartTable />
     </div>
   );
